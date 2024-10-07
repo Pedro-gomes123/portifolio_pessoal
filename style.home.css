@@ -1,0 +1,79 @@
+body{
+    background-image:url(./plano\ de\ fundo.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#img1{
+    border-radius: 269px;
+}
+
+#conteiner1{
+    float:right ;
+    margin-top: 40px;
+    margin-right: 880px ;
+  
+}
+
+
+nav{
+  background-color: #278fd54f; /* Cor de fundo da barra */
+  padding: 10px 20px; /* Espaçamento interno */
+  margin-top: 0%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
+  border-radius: 30px;
+}
+nav ul{
+    list-style: none; /* Remove as bolinhas da lista */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Organiza os itens horizontalmente */
+    justify-content: space-around; /* Espaça os itens igualmente */
+   
+}
+
+ nav ul li a {
+    color: rgba(0, 0, 0, 0.812); /* Cor do texto */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    padding: 10px 20px; /* Espaçamento dos links */
+    display: block; /* Garante que toda a área do link seja clicável */
+ }
+
+ nav ul li a:hover {
+    color: rgba(255, 255, 255, 0.812); /* Cor do texto */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    padding: 10px 20px; /* Espaçamento dos links */
+    display: block; /* Garante que toda a área do link seja clicável */
+ }
+ 
+ span{
+    color: rgba(255, 217, 0, 0.675);
+    display:inline-flex;
+ }
+
+
+ #social-links{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 30px;
+  
+}
+
+#social-links ion-icon{
+    height: 40px;
+    width: 40px;
+    flex-direction: column;
+    gap: 12px;
+    color: black;
+}
+
+#social-links ion-icon:hover{
+    height: 40px;
+    width: 40px;
+    flex-direction: column;
+    gap: 12px;
+    color: rgb(255, 255, 255);
+}
